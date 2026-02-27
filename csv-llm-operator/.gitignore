@@ -1,0 +1,18 @@
+# node_modules フォルダ（重いのでGitには入れない）
+node_modules/
+
+# ビルド成果物
+dist/
+.next/
+out/
+
+# OSが作成する一時ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数（パスワードなどが入るため絶対に入れない）
+.env
+.env.local
+
+# ログファイル
+*.log
